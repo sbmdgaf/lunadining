@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.menu-top{
+    height: 200px;
+    background-image: url(../assests/menuu.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+}
+.menu-top h1{
+    font-size: 50px;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.menu-top p{
+    color: white;
+    font-size: 18px;
+}
+.menu-categories{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px 0;
+}
+.first{
+   background-color: goldenrod;
+}
+.menu-categories span{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.all-dishes{
+    text-align: center;
+    padding: 20px 40px;
+    margin-top: 30px;
+}
+.all-dishes h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.dish-icon{
+    margin: 15px 0 30px;
+}
+.dish-icon i{
+    color: goldenrod;
+}
+.dishes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.dish{
+    border: 1px solid azure;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.dish img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.dish{
+    width: 30%;
+    box-sizing: border-box;
+}
+.dish h3{
+ font-size: 22px;
+}
+.dish .p{
+    color: gray;
+}
+.dish-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px 0;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.dish-bottom button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+}
+.dish p, h3{
+    margin-left: 9px;
+}
+.recommendation{
+    height: 330px;
+    width: 100%;
+    background-image: url(../assests/rec4.jpg);
+    background-size: cover;
+padding-left: 10px; 
+
+}
+.recommendation-text{
+    width: 400px;
+}
+.recommendation h2{
+    font-size: 40px;
+}
+.line{
+    width: 60px;
+    border-top: 2px solid goldenrod;
+    margin: 10px 0;
+}
+.recommendation h3{
+    font-size: 24px;
+}
+.recommendation .price{
+    font-size: 25px;
+    font-weight: bold;
+}
+.recommendation button{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+}
+.recommendation-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 10px;
+}
+
+.order{
+    display: flex;
+    padding-top: 15px;
+    gap: 100px;
+}
+.order button{
+    border-radius: 7px;
+}
+@media(max-width: 500px){
+    .menu-categories{
+      flex-wrap: wrap;
+    }
+    .dishes{
+        flex-direction: column;
+    }
+    .dish{
+        width: 100%;
+    }
+}

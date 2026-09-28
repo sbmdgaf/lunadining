@@ -1,0 +1,237 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#hero{
+    height: 400px;
+    background-color: blue;
+    background-image: url(../assests/homeimg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 5% 10%;
+}
+#hero p{
+    margin-bottom:10px;
+}
+#hero h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#hero button:first-of-type{
+    background-color: orange;
+    color: black;
+    border: none;
+}
+#hero button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#hero button:last-of-type{
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+}
+#about img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+#about div{
+    width: 47%;
+}
+#about h4{
+    color: orange;
+    margin-bottom: 10px;
+}
+#about h1{
+    margin-bottom: 13px;
+}
+#about p{
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about button{
+    padding: 10px 15px;
+    color: white;
+    background-color: orange;
+    border-radius: 7px;
+    border-style: none;
+}
+.dishes{
+    text-align: center;
+    padding: 15px 40px;
+    padding-top: 5px;
+}
+.dishes h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.food-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.food-card{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+}
+.food-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.food-card h2{
+    font-size: 22px;
+    margin: 15px 0 8px;
+}
+.food-card p{
+    font-size: 15px;
+}
+.food-card span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.why-us{
+    text-align: center;
+    padding: 50px 30px;
+    background-color: black;
+    color: white;
+}
+.why-us h1{
+    margin-bottom: 40px;
+}
+.why-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.why-box{
+    width: 220px;
+}
+.why-us .why-box i{
+    font-size: 35px;
+    color: goldenrod ;
+}
+.why-box h2{
+    font-size: 20px;
+}
+.why-box p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.why-box:not(:first-child){
+    border-left: 1px solid goldenrod ;
+    padding-left: 50px;
+}
+.review{
+    text-align: center;
+    padding: 50px 30px;
+    background-color: antiquewhite;
+    color: black;
+}
+.review-box{
+    margin-top: 10px;
+}
+.review-box p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.review-box h3{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.stars{
+    margin-top: 10px;
+}
+.stars i{
+    color: goldenrod;
+    font-size: 18px;
+    margin: 2px;
+}
+.span i{
+    color: goldenrod;
+}
+.cta{
+    background-image: url(../assests/meal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cta-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.cta h2{
+    margin: 0%;
+    font-size: 28px;
+}
+.cta-text{
+    text-align: center;
+}
+  
+.cta p{
+    margin: 5px 0px 15px;
+    font-size: 18px;
+}
+.cta button{
+    background-color: goldenrod;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+}
+@media( max-width:500px
+){
+    #hero{
+        padding: 15% 10%;
+    }
+    #about{
+        flex-direction: column;
+    }
+    #about div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .food-container{
+        flex-direction: column;
+    }
+    .why-container{
+        flex-direction: column;
+    }
+    .why-box:not(:first-child){
+    border-left: none ;
+    padding-left: 50px;
+}
+.why-container .why-box{
+    padding-left: 75px;
+}
+.cta-text{
+    padding-top: 10px;
+}
+.cta-content{
+    gap: 10px;
+}
+.cta h2{
+    font-size: 20px;
+}
+.cta p{
+    font-size: 14px;
+}
+}

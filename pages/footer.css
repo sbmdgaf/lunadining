@@ -1,0 +1,88 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 35px 60px 15px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-name img{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+.logo-name h2{
+    margin: 0%;
+    color: white;
+    font-size: 22px;
+}
+.logo-name h4{
+    margin: 0;
+    color: goldenrod;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+.footer-logo p{
+    color: lightgray;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.footer h3{
+    font-size: 15px;
+    margin: 0 0 15px;
+    color: goldenrod;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.opening p{
+    color: lightgray;
+    font-size: 13px;
+    margin: 8px 0;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+.socials a{
+    width: 32px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+@media(max-width:500px
+){
+    .footer-box{
+        flex-direction: column;
+    }
+}
