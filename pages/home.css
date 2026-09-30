@@ -217,13 +217,21 @@
     }
     .why-container{
         flex-direction: column;
+        align-items: center;
+        display: flex;
     }
     .why-box:not(:first-child){
     border-left: none ;
-    padding-left: 50px;
+    padding-left: 0px;
 }
-.why-container .why-box{
- padding-left: 80px;
+.why-us{
+    text-align: center;
+}
+.why-box{
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
 }
 .cta-text{
     padding-top: 10px;

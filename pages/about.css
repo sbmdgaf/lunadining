@@ -228,7 +228,7 @@ input{
     }
     .gallery h1{
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .info .socials-one{
         padding-bottom: 10px;
@@ -237,8 +237,21 @@ input{
         width: 48%;
     }
     .timeline{
-        flex-wrap: wrap;
-        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 10px;
+    }
+    .timeline-item{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .timeline-item .icon{
+        margin-bottom: 5px;
+    }
+    .timeline-item h3, .timeline-item p{
+        margin: 0;
     }
     hr{
         display: none;
@@ -254,5 +267,5 @@ input{
         margin: 18px 0;
         line-height: 1.5;
     }
-    
+
 }
