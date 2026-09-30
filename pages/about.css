@@ -1,6 +1,6 @@
 .menu-top{
     height: 250px;
-    background-image: url(../assests/ret2.jpg);
+    background-image: url(assests/ret2.jpg);
     background-size: contain;
     text-align: center;
     padding-top: 60px;
@@ -205,36 +205,54 @@ input{
     border-radius: 7px;
 }
 @media(max-width: 500px){
-    #about{
-        flex-direction: column;
-        width: 100%;
-    }
-    #about img{
-        width: 100%;
-    }
-    .timeline{
+    #about, .main, .contact{
         flex-direction: column;
     }
-    .main{
-        display: block;
-    }
-    .chef{
+    #about div, .chef, .gallery, .visit, .message{
         width: 100%;
     }
-    .photos{
+    #about p-one .break{
+        display: none;
+    }
+    #about div img{
+        margin-top: 10px;
+    }
+    .inputs{
         flex-direction: column;
-
     }
-    .photos img{
+    .chef-box{
+        flex-direction: column;
+    }
+    .chef-box img{
         width: 100%;
-        margin-left: 50%;
     }
     .gallery h1{
-        margin-top: 15px;
-        margin-left: 70%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .info .socials-one{
+        padding-bottom: 10px;
+    }
+    .photos img{
+        width: 48%;
+    }
+    .timeline{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    hr{
+        display: none;
     }
     .contact{
-        flex-direction: column;
+        display: block;
+        padding: 20px;
+    }
+    .visit{
         width: 100%;
     }
+    .visit p{
+        margin: 18px 0;
+        line-height: 1.5;
+    }
+    
 }

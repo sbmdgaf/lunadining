@@ -6,7 +6,7 @@
 #hero{
     height: 400px;
     background-color: blue;
-    background-image: url(../assests/homeimg.jpg);
+    background-image: url(assests/homeimg.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -163,7 +163,7 @@
     color: goldenrod;
 }
 .cta{
-    background-image: url(../assests/meal.jpg);
+    background-image: url(assests/meal.jpg);
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -200,7 +200,10 @@
 @media( max-width:500px
 ){
     #hero{
-        padding: 15% 10%;
+        padding: 10% 10%;
+    }
+    #hero h1{
+        padding-top: 10px;
     }
     #about{
         flex-direction: column;
@@ -220,7 +223,7 @@
     padding-left: 50px;
 }
 .why-container .why-box{
-    padding-left: 75px;
+ padding-left: 80px;
 }
 .cta-text{
     padding-top: 10px;
